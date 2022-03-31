@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="413dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="BÀI 1 - THỰC HÀNH BUỔI 3"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="LISTVIEW CONTROL VỚI MẢNG DỮ LIỆU ĐINH SẴN"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="LISTVIEW VỚI MẢNG DỮ LIỆU ĐƯỢC LƯU TRONG XML"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="ARRAYLIST VÀ LISTVIEW CONTROL"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="ARRAYLIST VÀ CÁC OBJECT BẤT KỲ"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="LISTVIEW DƯỚI DẠNG LISTACTIVITY"
+                android:textSize="16sp" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="THOÁT"
+                android:textSize="20sp" />
+
+            <TextView />
+
+            <TextView />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
